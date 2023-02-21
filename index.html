@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/mobile-first.css">
+    <link rel="stylesheet" href="styles/media-query-tablet.css">
+    <link rel="stylesheet" href="styles/media-query-desktop.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Login Screen</title>
+</head>
+
+<body>
+    <main>
+        <img src="images/mobile-first.gif" alt="Pokemon">
+        <h1>Login</h1>
+        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+            ambiente.</p>
+
+
+        <form action="#" method="post">
+            <div>
+                <label for="iemail"><span class="material-symbols-outlined">
+                        person
+                    </span></label>
+                <input class="inputs" type="email" name="email" id="iemail" placeholder="Your E-mail" required>
+            </div>
+
+            <div>
+                <label for="ipassword"><span class="material-symbols-outlined">
+                        key
+                    </span></label>
+                <input class="inputs" type="password" name="password" id="ipassword" placeholder="Insert your Password"
+                    required>
+            </div>
+
+            <input type="submit" value="Submit" id="submitbutton" class="buttons">
+        </form>
+
+        <button id="passwordbutton" class="buttons"><a href="#">Recover Password</a></button>
+
+    </main>
+</body>
+
+</html>

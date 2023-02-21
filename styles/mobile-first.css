@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* Mobile First Version */
+
+:root {
+  --color1: #4e4187;
+  --color2: #3083dc;
+  --color3: #496f5d;
+  --color4: #7dde92;
+  --color5: #2ebfa5;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "titlefont";
+  src: url(../fonts/minecraft/Minecraft.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "bodyfont";
+  src: url(../fonts/dogica.ttf) format("truetype");
+}
+
+body {
+  background-color: brown;
+  position: relative;
+  height: 100vh;
+}
+
+main {
+  background-color: var(--color3);
+  width: 250px;
+  height: 570px;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  font-family: "century gothic", monospace;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+}
+
+main h1 {
+  font-family: "titlefont", monospace;
+  margin-top: 25px;
+  font-size: 24px;
+}
+
+main p {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: -8px;
+}
+
+main div {
+  background-color: var(--color4);
+  margin: 10px;
+  margin-bottom: -5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+main img {
+  width: 250px;
+  margin: -15px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.material-symbols-outlined {
+  color: black;
+}
+
+.inputs {
+  height: 30px;
+  border-radius: 10px;
+  text-indent: 10px;
+  width: 150px;
+  border: 2px solid var(--color3);
+}
+
+.buttons {
+  width: 180px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 2px;
+  border-radius: 6px;
+}
+
+#submitbutton {
+  background-color: var(--color5);
+  border: none;
+  color: white;
+  margin-top: 12px;
+}
+
+#submitbutton:hover {
+  background-color: #1e7e6c;
+}
+
+#passwordbutton {
+  background-color: white;
+  border: 1px solid var(--color5);
+}
+
+#passwordbutton a {
+  text-decoration: none;
+  color: var(--color3);
+}
+
+#passwordbutton:hover{
+    background-color: var(--color1);
+    border: 1px solid white;
+}
+
+#passwordbutton:hover a{
+    color: white;
+}
+
