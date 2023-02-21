@@ -4,11 +4,125 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
-    main{
-        width: 600px;
-    }
-    
-    main img{
-        margin-left:-365px ;
-    }
+  *{
+    margin: 0px;
+    padding: 0px;
+    transition: all .1s;
+  }
+
+  body{
+    background-color: blueviolet;
+    height: 100vh;
+  }
+
+ #image{
+    display: inline-block;
+    background-image: url(../images/media-back.gif);
+    height: 300px;
+    width: 220px;
+    margin-left: -443px;
+    border-radius: 20px 0px 0px 20px;
+ }
+
+  main {
+    background-color: var(--color3);
+    width: 650px;
+    height: 300px;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    font-family: "century gothic", monospace;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+  }
+  
+  main h1 {
+    font-family: "titlefont", monospace;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  main p {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+
+  #container1{
+    width: 410px;
+    height: 270px;
+    position: absolute;
+    left: 36%;
+    bottom: 5%;
+  }
+
+  .passwordcontainer{
+    background-color: var(--color4);
+    margin: 10px auto -5px auto;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 390px;
+    height: 45px;
+  }
+  
+  .material-symbols-outlined {
+    color: black;
+  }
+  
+  .inputs {
+    height: 35px;
+    border-radius: 10px;
+    text-indent: 10px;
+    width: 350px;
+    border: 2px solid var(--color3);
+  }
+  
+  .buttons {
+    width: 400px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 2px;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  
+  #submitbutton {
+    background-color: var(--color5);
+    border: none;
+    color: white;
+    margin-top: 12px;
+  }
+  
+  #submitbutton:hover {
+    background-color: #1e7e6c;
+  }
+  
+  #passwordbutton {
+    background-color: white;
+    border: 1px solid var(--color5);
+  }
+  
+  #passwordbutton a {
+    text-decoration: none;
+    color: var(--color3);
+  }
+  
+  #passwordbutton:hover{
+      background-color: var(--color1);
+      border: 1px solid white;
+  }
+  
+  #passwordbutton:hover a{
+      color: white;
+  }
+
+
 }

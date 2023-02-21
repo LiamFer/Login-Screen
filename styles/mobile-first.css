@@ -14,6 +14,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  transition: all .1s;
 }
 
 @font-face {
@@ -61,18 +62,12 @@ main p {
   margin-bottom: -8px;
 }
 
-main div {
+.passwordcontainer{
   background-color: var(--color4);
   margin: 10px;
   margin-bottom: -5px;
   padding: 5px;
   border-radius: 10px;
-}
-
-main img {
-  width: 250px;
-  margin: -15px;
-  border-radius: 20px 20px 0px 0px;
 }
 
 .material-symbols-outlined {
@@ -125,3 +120,13 @@ main img {
     color: white;
 }
 
+#image{
+    background-image: url(../images/mobile-first.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin: -15px;
+    border-radius: 20px 20px 0px 0px;
+}

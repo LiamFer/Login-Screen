@@ -15,32 +15,32 @@
 
 <body>
     <main>
-        <img src="images/mobile-first.gif" alt="Pokemon">
-        <h1>Login</h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
-            ambiente.</p>
+        <div id="image"></div>
 
-
-        <form action="#" method="post">
+        <section id="container1">
             <div>
-                <label for="iemail"><span class="material-symbols-outlined">
-                        person
-                    </span></label>
-                <input class="inputs" type="email" name="email" id="iemail" placeholder="Your E-mail" required>
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.</p>
             </div>
-
-            <div>
-                <label for="ipassword"><span class="material-symbols-outlined">
-                        key
-                    </span></label>
-                <input class="inputs" type="password" name="password" id="ipassword" placeholder="Insert your Password"
-                    required>
-            </div>
-
-            <input type="submit" value="Submit" id="submitbutton" class="buttons">
-        </form>
-
-        <button id="passwordbutton" class="buttons"><a href="#">Recover Password</a></button>
+            <form action="#" method="post">
+                <div class="passwordcontainer">
+                    <label for="iemail"><span class="material-symbols-outlined">
+                            person
+                        </span></label>
+                    <input class="inputs" type="email" name="email" id="iemail" placeholder="Your E-mail" required>
+                </div>
+                <div class="passwordcontainer">
+                    <label for="ipassword"><span class="material-symbols-outlined">
+                            key
+                        </span></label>
+                    <input class="inputs" type="password" name="password" id="ipassword" placeholder="Insert your Password"
+                        required>
+                </div>
+                <input type="submit" value="Submit" id="submitbutton" class="buttons">
+            </form>
+            <button id="passwordbutton" class="buttons"><a href="#">Recover Password</a></button>
+        </section>
 
     </main>
 </body>
