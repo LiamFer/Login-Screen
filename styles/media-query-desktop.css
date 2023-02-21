@@ -116,7 +116,6 @@
       }
       
       #passwordbutton:hover{
-          background-color: var(--color1);
           border: 1px solid white;
       }
       

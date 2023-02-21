@@ -22,11 +22,6 @@
   src: url(../fonts/minecraft/Minecraft.ttf) format("truetype");
 }
 
-@font-face {
-  font-family: "bodyfont";
-  src: url(../fonts/dogica.ttf) format("truetype");
-}
-
 body {
   background-color: brown;
   position: relative;
@@ -54,12 +49,13 @@ main h1 {
   font-family: "titlefont", monospace;
   margin-top: 25px;
   font-size: 24px;
+  letter-spacing: 5px;
 }
 
 main p {
   font-size: 14px;
   margin-top: 5px;
-  margin-bottom: -8px;
+  margin-bottom: -4px;
 }
 
 .passwordcontainer{
@@ -112,7 +108,7 @@ main p {
 }
 
 #passwordbutton:hover{
-    background-color: var(--color1);
+    background-color: var(--color2);
     border: 1px solid white;
 }
 
