@@ -11,21 +11,20 @@
   }
 
   body{
-    background-color: blueviolet;
+    background-color: rgb(131, 81, 25);
     height: 100vh;
   }
 
  #image{
-    display: inline-block;
-    background-image: url(../images/media-back.gif);
-    height: 300px;
-    width: 220px;
-    margin-left: -443px;
-    border-radius: 20px 0px 0px 20px;
+    display: none;
  }
 
   main {
     background-color: var(--color3);
+    background-image: url(../images/media-back.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 275px 350px;
     width: 650px;
     height: 300px;
     padding: 15px;
@@ -44,7 +43,7 @@
     font-family: "titlefont", monospace;
     margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
   }
   
@@ -52,15 +51,16 @@
     font-size: 13px;
     margin-top: 0px;
     margin-bottom: 0px;
-    text-align: left;
+    text-align: center;
   }
 
   #container1{
-    width: 410px;
+    width: 370px;
     height: 270px;
     position: absolute;
-    left: 36%;
+    left: 42.6%;
     bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.514);
   }
 
   .passwordcontainer{
@@ -69,7 +69,7 @@
     padding: 5px;
     border-radius: 10px;
     text-align: center;
-    width: 390px;
+    width: 350px;
     height: 45px;
   }
   
@@ -81,12 +81,12 @@
     height: 35px;
     border-radius: 10px;
     text-indent: 10px;
-    width: 350px;
+    width: 290px;
     border: 2px solid var(--color3);
   }
   
   .buttons {
-    width: 400px;
+    width: 350px;
     padding: 10px;
     font-weight: bold;
     margin: 2px;
