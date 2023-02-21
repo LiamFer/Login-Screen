@@ -58,6 +58,10 @@ main p {
   margin-bottom: -4px;
 }
 
+span{
+  transform: translateY(6px);
+}
+
 .passwordcontainer{
   background-color: var(--color4);
   margin: 10px;
